@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body {
+* {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,20 +17,141 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
+    padding: auto; /* Adjust the padding as needed */
+    height: auto; /* Set the desired height for the header-top */
+    background-color: rgb(23, 24, 33);
 }
 
 .header-logo img {
     width: 100px;
     height: auto;
+    margin-left: 50px;
 }
 
+
+.nav {
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
 a {
     color: white;
+    display: inline-block; /* Use 'inline-block' instead of 'float: left' */
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #2c3a4e;
 }
 
 ul {
     display: flex;
     list-style: none;
-    margin: 30px;
-    padding: 20px;
 }
+
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-body{
+    display: flex;
+    padding: 100px;
+}
+
+img{
+    max-height: 600px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+}
+
+/* ------------------------------ */
+
+.section-one {
+    background-color: #fef9da;
+    padding: 50px;
+}
+
+.section-one h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    border: 10px solid rgb(186, 186, 223);
+    border-radius: 2px;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.box img {
+    width: 300px;
+    height: 300px;
+}
+
+.box p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+/* ------------------- */
+/* Add the following style */
+/* Add the following style */
+.section-two {
+    background-color: rgb(244, 171, 171);
+    margin-top: 0px;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Add this property */
+}
+
+.quote {
+    font-style: italic;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.author {
+    color: rgb(233, 233, 233);
+    font-size: 30px;
+    margin-left: 250px;
+}
+

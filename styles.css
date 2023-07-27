@@ -17,8 +17,8 @@
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding: auto; /* Adjust the padding as needed */
-    height: auto; /* Set the desired height for the header-top */
+    padding: auto; 
+    height: auto; 
     background-color: rgb(23, 24, 33);
 }
 
@@ -36,7 +36,7 @@
 }
 a {
     color: white;
-    display: inline-block; /* Use 'inline-block' instead of 'float: left' */
+    display: inline-block; 
     padding: 8px;
     text-decoration: none;
     font-size: 20px;
@@ -129,18 +129,16 @@ button {
 
 
 /* ------------------- */
-/* Add the following style */
-/* Add the following style */
 .section-two {
     background-color: rgb(244, 171, 171);
     margin-top: 0px;
     text-align: center;
-    padding: 100px;
+    padding: 70px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; /* Add this property */
+    justify-content: space-between; 
 }
 
 .quote {
@@ -155,3 +153,45 @@ button {
     margin-left: 250px;
 }
 
+/* ----------------------- */
+
+.section-three { 
+    background-color: rgb(222, 255, 222);
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Textbox {
+    gap: -20px; /* Adjust the gap between elements */
+    border-radius: 8px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 800px; /* Adjust the width as needed */
+    color: white;
+}
+
+.Textbox h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Textbox p {
+    font-size: 15px;
+}
+
+.sign-up {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    align-self: flex-end;
+    margin-right: 60px; /* Remove the margin on the right side */
+}
